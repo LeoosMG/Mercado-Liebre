@@ -83,8 +83,8 @@ header {
 }
 
 .titleBar .logo {
-    width: 50%;
-    max-width: 150px;
+    width: 100%;
+    max-width: 200px;
     margin: 0;
     padding-right: 0.5rem;
 }
@@ -365,11 +365,11 @@ main section {
     z-index: 12;
     right: 20px;
     top: -15px;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
-.article .box .i-shipment:hover {
-    animation: turnTruck 0.5s 1;
+.article:hover .box .i-shipment {
+    animation: turnTruck 0.5s;
 }
 
 .article .box .discount {
